@@ -1,0 +1,24 @@
+<div class="perfil">
+  <div class="perfil-stats">
+    <img id="foto-perfil"[src]="perfil.foto" alt="Foto perfil de uma desenvoveldora"/>
+    <div>
+      <strong>{{perfil.publicacoes}}</strong><br>Publicacoes
+    </div>
+    <div>
+      <strong>{{perfil.seguidores}}</strong><br>Seguidores
+    </div>
+    <div>
+      <strong>{{perfil.seguindo}}</strong><br>Seguindo
+    </div>
+  </div>
+  <div class="perfil-info">
+    <h2>{{perfil.nome}}</h2>
+    <p>{{perfil.username}}</p>
+    <p>🚩{{perfil.local}}</p>
+    <p>📅{{perfil.idade}}</p>
+    <p>💻{{perfil.profissao}}</p>
+    <p>⛺{{perfil.empresa}}</p>
+  </div>
+  <input [(ngModel)]="nome">
+  <p>{{nome}}</p>
+</div>
