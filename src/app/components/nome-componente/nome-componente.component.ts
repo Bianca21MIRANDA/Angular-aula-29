@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class NomeComponenteComponent {
   nome: string = "Bianca";
   profissao: string = "Desenvolvedora Web";
-  hobbies: string [] = ["Viajar", "Ler", "Assistir séries", "Jogar beach tennis"]
+  hobbies: string [] = ["Viajar", "Ler", "Assistir séries", "Jogar voleibol"]
 
 
 }
